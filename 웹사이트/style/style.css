@@ -1,0 +1,84 @@
+        .icon-size {
+            height: 50px;
+            width: 50px;
+        }
+        
+        #main-menu > div > li:hover #sub-menu {
+            
+            display: block;
+        }
+        
+        #main-menu > div > li {
+            float: left;
+            list-style-type: none;
+        }
+        
+        #sub-menu {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+            background-color: #e5e5e5;
+            display: none;
+        }
+        
+        #sub-menu > li {
+            padding: 10px 0 10px 8px;
+        }
+        
+        #sub-menu > li > a {
+            text-decoration: none;
+        }
+        
+        #sub-menu > li > a:link {
+            color: black;
+        }
+        
+        #sub-menu > li > a:visited {
+            color: black;
+        }
+        
+        #sub-menu > li > a:hover {
+            color: #73a3ee;
+        }
+        
+        #sub-menu > li > a:active {
+            color: #618ccf;
+        }
+        
+        .web-width-1{
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .web-width-2{
+            width: 1242px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .web-width-3{
+            width: 1250px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .noodle {
+            margin-left: auto;
+            margin-right: auto;
+            width: 1200px;
+        }
+        
+        #noodle-nongshim {
+            text-align: left;
+        }
+
+        .menu-content {
+            border: none;
+            width: 1300px;
+            height: 800px;
+        }
+
+        #content > div > ul > ul > li {
+            padding: 10px 0px;
+        }
