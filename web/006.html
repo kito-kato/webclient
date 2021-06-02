@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+
+        <style>
+            
+            #noodle-list > ul > li {
+                float: left;
+            }
+            
+            #noodle-list > ul {
+                list-style-type: none;
+            }
+            
+            #info {
+                padding-top: 130px;
+                padding-left: 250px;
+            }
+            
+            #info > table {
+                width: 400px;
+            }
+            
+            table, td, th {
+                border: 1px solid #73a3ee;
+                border-collapse: collapse;
+                padding: 10px;
+                text-align: center;
+            }
+            
+            a {
+                text-decoration: none;
+            }
+            
+            a:link, a:visited {
+                color: black;
+            }
+            
+            a:hover, a:active {
+                color: #73a3ee;
+            }
+            
+        </style>
+    
+    <script src="search.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    </head>
+    <body>
+        <div style="position: sticky; top: 16px;">
+            <div style="background-color: white;">
+                <div class="web-width-3" style="background-color: #73a3ee; height: 110px;">
+                    <div class="web-width-2">
+                        <p style="text-align: right; color: white; padding-top: 10px;">컵라면 검색</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <ul id="main-menu" class="web-width-1">
+                            <div style="display: inline-block;">
+                                <li>
+                                    <button onclick="GoToMenu(); return false;">
+                                        <img src="menu.png" class="icon-size">
+                                    </button>
+                                    <ul id="sub-menu">
+                                        <li>
+                                            <a href="../menu/index.html#">농심</a>
+                                        </li>
+                                        <li>
+                                            <a href="../menu/index.html#samyang">삼양</a>
+                                        </li>
+                                        <li>
+                                            <a href="../menu/index.html#ottogi">오뚜기</a>
+                                        </li>
+                                        <li>
+                                            <a href="../menu/index.html#paldo">팔도</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                
+                                <li style="width: 600px; background-color: #efefef; border: 0.1px solid #767676; text-align: left;">
+                                    <form>
+                                        <div style="height: 34.6px; width: 120%; padding: 10px 0px 14px 8px;">
+                                            <input id="id1" type="text" style="width: 80%; height: 90%; " placeholder="검색어 입력" autocomplete="off">
+                                        </div>
+                                    </li>
+                                    
+                                    <li>
+                                        <div>
+                                            <button onclick="Search(); return false;">
+                                                <img src="search_icon.png" class="icon-size">
+                                            </button>
+                                        </div>
+                                    </li>
+                                </form>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        
+        
+        <br>
+        
+        
+        
+        <div style=" background-color:white; border: 5px solid #73a3ee; width: 1300px; margin-left: auto; margin-right: auto;">
+            <div id="noodle-list">
+                <ul style="display: inline-block;">
+                    <li style="text-align: center;">
+                        <img src="신라면.png" style="border: 2px solid #73a3ee;" width="300px">
+                        <p style="background-color:white; padding: 10px; border: 2px solid #73a3ee">신라면</p>
+                    </li>
+                    <li>
+                        <div id="info">
+                            <table>
+                                <th>중량</th>
+                                <th>열량</th>
+                                <th>나트륨</th>
+                                <th>출시년도</th>
+                                
+                                <tr>
+                                    <td>114g</td>
+                                    <td>490kcal</td>
+                                    <td>1550mg</td>
+                                    <td>1997.12</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div style="padding-left: 40px; padding-bottom: 35px;">
+                <a href="index.html" style="background-color: white; padding: 10px; border: 2px solid #73a3ee">돌아가기</a>
+            </div>
+        </div>
+    </body>
+</html>
