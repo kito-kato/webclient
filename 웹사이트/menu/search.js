@@ -136,5 +136,5 @@ function Search() {
 
 
 function GoToMenu() {
-    window.location.href = "menu.html"
+    window.location.href = "index.html"
 }
