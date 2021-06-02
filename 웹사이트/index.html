@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>20200639 신동주</title>
+
+
+
+        <style>
+            a:link, a:visited {
+                color:black;
+            }
+
+            a:hover{
+                color:#73a3ee; 
+            }
+
+            a:active {
+                color:#618ccf;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+
+        </style>
+        
+        
+        <script src="search.js"></script>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <div style="position: sticky; top: 16px;">
+            <div style="background-color: white;">
+                <div class="web-width-3" style="background-color: #73a3ee; height: 110px;">
+                    <div class="web-width-2">
+                        <p style="text-align: right; color: white; padding-top: 10px;">컵라면 검색</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <ul id="main-menu" class="web-width-1">
+                            <div style="display: inline-block;">
+                                <li>
+                                    <button onclick="GoToMenu(); return false;">
+                                        <img src="menu.png" class="icon-size">
+                                    </button>
+                                    <ul id="sub-menu">
+                                        <li>
+                                            <a href="#">농심</a>
+                                        </li>
+                                        <li>
+                                            <a href="#samyang">삼양</a>
+                                        </li>
+                                        <li>
+                                            <a href="#ottogi">오뚜기</a>
+                                        </li>
+                                        <li>
+                                            <a href="#paldo">팔도</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                
+                                <li style="width: 600px; background-color: #efefef; border: 0.1px solid #767676; text-align: left;">
+                                    <form>
+                                        <div style="height: 34.6px; width: 120%; padding: 10px 0px 14px 8px;">
+                                            <input id="id1" type="text" style="width: 80%; height: 90%; " placeholder="검색어 입력" autocomplete="off">
+                                        </div>
+                                    </li>
+                                    
+                                    <li>
+                                        <div>
+                                            <button onclick="Search(); return false;">
+                                                <img src="search_icon.png" class="icon-size">
+                                            </button>
+                                        </div>
+                                    </li>
+                                </form>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div id="nongshim" class="noodle" style="border: 5px solid #73a3ee;">
+            <div id="content">
+                <div>
+                    <ul>
+                        <li>농심</li>
+                        <ul>
+                            <li>
+                                <a href="001.html">김치 사발면</a>
+                            </li>
+                            <li>
+                                <a href="002.html">너구리</a>
+                            </li>
+                            <li>
+                                <a href="003.html">무파마</a>
+                            </li>
+                            <li>
+                                <a href="004.html">사리곰탕</a>
+                            </li>
+                            <li>
+                                <a href="005.html">새우탕</a>
+                            </li>
+                            <li>
+                                <a href="006.html">신라면</a>
+                            </li>
+                            <li>
+                                <a href="007.html">안성탕면</a>
+                            </li>
+                            <li>
+                                <a href="008.html">오징어짬뽕</a>
+                            </li>
+                            <li>
+                                <a href="009.html">우육탕</a>
+                            </li>
+                            <li id="samyang">  <!--스크롤 위치상-->
+                                <a href="010.html">육개장</a>
+                            </li>
+                            <li>
+                                <a href="011.html">짜파게티</a>
+                            </li>
+                            <li>
+                                <a href="012.html">튀김우동</a>
+                            </li>
+                        </ul>
+                        <li>삼양</li>
+                        <ul>
+                            <li>
+                                <a href="013.html">간짬뽕</a>
+                            </li>
+                            <li>
+                                <a href="014.html">나가사끼 짬뽕</a>
+                            </li>
+                            <li id="ottogi">  <!--스크롤 위치상-->
+                                <a href="015.html">맛있는 라면</a>
+                            </li>
+                            <li>
+                                <a href="016.html">불닭볶음면</a>
+                            </li>
+                            <li>
+                                <a href="017.html">삼양라면</a>
+                            </li>
+                        </ul>
+                                
+                        <li>오뚜기</li>
+                        <ul>
+                            <li>
+                                <a href="018.html">라면볶이</a>
+                            </li>
+                            <li>
+                                <a href="019.html">스낵면</a>
+                            </li>
+                            <li>
+                                <a href="020.html">스파게티</a>
+                            </li>
+                            <li>
+                                <a href="021.html">열라면</a>
+                            </li>
+                            <li>
+                                <a href="022.html">진라면</a>
+                            </li>
+                            <li>
+                                <a href="023.html">진짜장</a>
+                            </li>
+                            <li>
+                                <a href="024.html">진짬뽕</a>
+                            </li>
+                            <li>
+                                <a href="025.html">짜장볶이</a>
+                            </li>
+                            <li>
+                                <a href="026.html">참깨라면</a>
+                            </li>
+                            <li>
+                                <a href="027.html">치즈볶이</a>
+                            </li>
+                        </ul>
+                                
+                        <li id="paldo">팔도</li>
+                        <ul>
+                            <li>
+                                <a href="028.html">꼬꼬면</a>
+                            </li>
+                            <li>
+                                <a href="029.html">도시락</a>
+                            </li>
+                            <li>
+                                <a href="030.html">왕뚜껑</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <br>
+
+
+
+    </body>
+</html>
